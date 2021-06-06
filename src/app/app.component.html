@@ -1,2 +1,7 @@
-<h1>{{greeting}}</h1>
-<app-users></app-users>
+<ul>
+  <li><a [routerLink]="['home']">home</a></li>
+  <li><a routerLink="users">users</a></li>
+  <li><a [routerLink]="['posts']">posts</a></li>
+  <li>coments</li>
+</ul>
+<router-outlet></router-outlet>
